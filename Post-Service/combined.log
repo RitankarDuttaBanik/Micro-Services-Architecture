@@ -1,0 +1,4 @@
+{"Service":"Post-Service","level":"info","message":" Post Server  is running on port 3002","timestamp":"2025-07-27T18:53:55.057Z"}
+{"Service":"Post-Service","level":"info","message":"connected to DataBase.","timestamp":"2025-07-27T18:53:55.724Z"}
+{"Service":"Post-Service","level":"info","message":" Post Server  is running on port 3002","timestamp":"2025-07-27T18:54:35.378Z"}
+{"Service":"Post-Service","level":"info","message":"connected to DataBase.","timestamp":"2025-07-27T18:54:36.072Z"}
