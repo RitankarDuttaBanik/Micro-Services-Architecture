@@ -1,0 +1,123 @@
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T09:11:12.853Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T09:11:12.860Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T09:11:12.861Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T09:11:28.189Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T09:11:28.196Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T09:11:28.197Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T09:11:54.885Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T09:11:54.890Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T09:11:54.891Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T09:12:52.319Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T09:12:52.324Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T09:12:52.324Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T09:31:02.497Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T09:31:02.502Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T09:31:02.503Z"}
+{"0":"I","1":"n","10":"e","11":"q","12":"u","13":"e","14":"s","15":"t","2":"c","3":"o","4":"m","5":"i","6":"n","7":"g","8":" ","9":"r","Service":"Common-API-GateWay","level":"info","message":{"body":{"email":"ratan@gmail.com","password":"akoegihvad","username":"RatanAPI"},"method":"POST","url":"/v1/auth/registerUser"},"timestamp":"2025-07-27T09:31:24.482Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"proxy error : AggregateError","timestamp":"2025-07-27T09:31:24.519Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T09:32:57.979Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T09:32:57.983Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T09:32:57.984Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T09:35:09.796Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T09:35:09.801Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T09:35:09.802Z"}
+{"0":"I","1":"n","10":"e","11":"q","12":"u","13":"e","14":"s","15":"t","2":"c","3":"o","4":"m","5":"i","6":"n","7":"g","8":" ","9":"r","Service":"Common-API-GateWay","level":"info","message":{"body":{"email":"ratan@gmail.com","password":"akoegihvad","username":"RatanAPI"},"method":"POST","url":"/v1/auth/registerUser"},"timestamp":"2025-07-27T09:36:59.786Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"proxy error : AggregateError","timestamp":"2025-07-27T09:36:59.820Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T09:40:25.554Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T09:40:25.559Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T09:40:25.560Z"}
+{"0":"I","1":"n","10":"e","11":"q","12":"u","13":"e","14":"s","15":"t","2":"c","3":"o","4":"m","5":"i","6":"n","7":"g","8":" ","9":"r","Service":"Common-API-GateWay","level":"info","message":{"body":{"email":"ratan@gmail.com","password":"Ratan@123","username":"RatanAPI"},"method":"POST","url":"/v1/auth/registerUser"},"timestamp":"2025-07-27T09:41:01.751Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"proxy error : AggregateError","timestamp":"2025-07-27T09:41:01.779Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T09:57:19.095Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T09:57:19.100Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T09:57:19.101Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/registerUser","timestamp":"2025-07-27T09:57:41.330Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T09:57:41.332Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: ","timestamp":"2025-07-27T09:57:41.375Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T09:59:25.573Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T09:59:25.579Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T09:59:25.580Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/registerUser","timestamp":"2025-07-27T09:59:32.277Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T09:59:32.279Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: ","timestamp":"2025-07-27T09:59:32.298Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T10:02:19.737Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T10:02:19.741Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T10:02:19.742Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/registerUser","timestamp":"2025-07-27T10:02:30.068Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T10:02:30.068Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: ","timestamp":"2025-07-27T10:02:30.076Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T10:02:47.980Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T10:02:47.985Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T10:02:47.986Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T10:07:40.386Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T10:07:40.394Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T10:07:40.395Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/registerUser","timestamp":"2025-07-27T10:07:56.203Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T10:07:56.205Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 201","timestamp":"2025-07-27T10:07:57.597Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T10:37:54.309Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T10:37:54.315Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T10:37:54.316Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/LoginUser","timestamp":"2025-07-27T10:41:44.460Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T10:41:44.463Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 500","timestamp":"2025-07-27T10:41:44.947Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T10:51:16.929Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T10:51:16.933Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T10:51:16.934Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/LoginUser","timestamp":"2025-07-27T10:51:31.937Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T10:51:31.940Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 200","timestamp":"2025-07-27T10:51:32.585Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/LoginUser","timestamp":"2025-07-27T10:54:45.706Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T10:54:45.708Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 200","timestamp":"2025-07-27T10:54:46.168Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T14:39:16.074Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T14:39:16.080Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T14:39:16.081Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/registerUser%20","timestamp":"2025-07-27T14:40:17.754Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T14:40:17.756Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 404","timestamp":"2025-07-27T14:40:19.102Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/registerUser%20","timestamp":"2025-07-27T14:41:02.977Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T14:41:02.978Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 404","timestamp":"2025-07-27T14:41:02.992Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/registerUser%20","timestamp":"2025-07-27T14:41:59.372Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T14:41:59.374Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 404","timestamp":"2025-07-27T14:41:59.388Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/registerUser%20","timestamp":"2025-07-27T14:42:18.816Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T14:42:18.817Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 404","timestamp":"2025-07-27T14:42:18.832Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/LoginUser","timestamp":"2025-07-27T14:43:23.217Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T14:43:23.218Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 200","timestamp":"2025-07-27T14:43:23.539Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/LoginUser","timestamp":"2025-07-27T14:43:29.759Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T14:43:29.759Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 200","timestamp":"2025-07-27T14:43:30.070Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/registerUser%20","timestamp":"2025-07-27T14:43:41.201Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T14:43:41.202Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 404","timestamp":"2025-07-27T14:43:41.217Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-27T14:44:10.594Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-27T14:44:10.600Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-27T14:44:10.601Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/registerUser%20","timestamp":"2025-07-27T14:44:31.563Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T14:44:31.564Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 404","timestamp":"2025-07-27T14:44:31.603Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/registerUser%20","timestamp":"2025-07-27T14:44:48.657Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T14:44:48.658Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 404","timestamp":"2025-07-27T14:44:48.672Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/registerUser%20","timestamp":"2025-07-27T14:45:36.884Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T14:45:36.886Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 404","timestamp":"2025-07-27T14:45:36.901Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/registerUser%20","timestamp":"2025-07-27T14:46:47.485Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T14:46:47.486Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 404","timestamp":"2025-07-27T14:46:47.504Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/auth/registerUser%20","timestamp":"2025-07-27T14:46:54.476Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T14:46:54.477Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 404","timestamp":"2025-07-27T14:46:54.492Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/registerUser%20","timestamp":"2025-07-27T14:47:00.793Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T14:47:00.794Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 404","timestamp":"2025-07-27T14:47:00.805Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/registerUser","timestamp":"2025-07-27T14:49:29.144Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T14:49:29.145Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 201","timestamp":"2025-07-27T14:49:29.563Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/LoginUser","timestamp":"2025-07-27T14:49:51.047Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-27T14:49:51.048Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 200","timestamp":"2025-07-27T14:49:51.353Z"}
