@@ -10,20 +10,22 @@ A backend system built using Node.js and Express.js, implementing the Microservi
     Proxies requests to the appropriate service
 
     Implements:
-    Rate limiting
-    CORS
-    Logging
-    Token forwarding
-    Request validation
+   
+        Rate limiting
+        CORS
+        Logging
+        Token forwarding
+        Request validation
 
-2. 🛂 Identity Service (identity-service)
+3. 🛂 Identity Service (identity-service)
       Responsible for user management
 
     Implements:
-    User Registration
-    User Login
-    JWT-based Authentication
-    Password Hashing
+   
+        User Registration
+        User Login
+        JWT-based Authentication
+        Password Hashing
 
 
 🛠 Technologies Used
@@ -37,29 +39,33 @@ A backend system built using Node.js and Express.js, implementing the Microservi
 
 
 🛣️ API Gateway Endpoints
-  Base URL: http://localhost:3000/v1
+  Base URL:   
+          
+          http://localhost:3000/v1
   
-  Method	    Endpoint	                Description
-  POST	    /auth/registerUser	       Register new user
-  POST	    /auth/LoginUser	           Login existing user
+  
+      POST	    /auth/registerUser	       Register new user
+      POST	    /auth/LoginUser	           Login existing user
 
 📌 Note: These endpoints are proxied via the API Gateway to the Identity Service.
 
 
 ⚙️ Setup Instructions
 
-  git clone https://github.com/yourusername/Microservices-Backend.git
-  cd Microservices-Backend
+      git clone https://github.com/yourusername/Microservices-Backend.git
+      cd Microservices-Backend
   
   Start the API Gateway
-  cd api-gateway
-  npm install
-  npm run dev
+  
+          cd api-gateway
+          npm install
+          npm run dev
     
   Start the Identity Service
-  cd ../identity-service
-  npm install
-  npm run dev
+  
+          cd ../identity-service
+          npm install
+          npm run dev
 
 
 🧪 Future Improvements
