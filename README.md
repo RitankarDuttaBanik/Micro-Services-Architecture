@@ -27,8 +27,24 @@ A backend system built using Node.js and Express.js, implementing the Microservi
         JWT-based Authentication
         Password Hashing
 
+ 4 .📌 Folder Structure
 
-🛠 Technologies Used
+           Microservices-/
+        ├── api-gateway/
+        │   └── src/
+        │       ├── routes/
+        │       ├── middleware/
+        │       └── server.js
+        ├── identity-service/
+        │   └── src/
+        │       ├── controllers/
+        │       ├── routes/
+        │       ├── models/
+        │       └── server.js
+        └── README.md
+
+
+5.🛠 Technologies Used
 
   Node.js + Express.js
   MongoDB (with Mongoose)
@@ -38,7 +54,7 @@ A backend system built using Node.js and Express.js, implementing the Microservi
   Winston for logging
 
 
-🛣️ API Gateway Endpoints
+6.🛣️ API Gateway Endpoints
   Base URL:   
           
     http://localhost:3000/v1
@@ -50,7 +66,7 @@ A backend system built using Node.js and Express.js, implementing the Microservi
 📌 Note: These endpoints are proxied via the API Gateway to the Identity Service.
 
 
-⚙️ Setup Instructions
+7.⚙️ Setup Instructions
 
       git clone https://github.com/yourusername/Microservices-Backend.git
       cd Microservices-Backend
@@ -68,25 +84,25 @@ A backend system built using Node.js and Express.js, implementing the Microservi
           npm run dev
 
 
-🧪 Future Improvements
+8.🧪 Future Improvements
 
-  Add user profile microservice
+   Add user profile microservice
   
-  Integrate API gateway authentication middleware
+   Integrate API gateway authentication middleware
   
-  Dockerize all services
+   Dockerize all services
   
-  CI/CD pipeline
+   CI/CD pipeline
 
 
 
 
-🧑‍💻 Contributing
+9.🧑‍💻 Contributing
 
     Feel free to fork this repo and open pull requests. For major changes, open an issue first to discuss your idea.
 
 
-📄 License
+10.📄 License
        
     This project is licensed under the MIT License.
 
