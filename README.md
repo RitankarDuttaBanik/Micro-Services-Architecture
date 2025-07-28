@@ -1,15 +1,15 @@
-🧠 Microservices ArchiTecture 
+1.🧠 Microservices ArchiTecture 
 
 A backend system built using Node.js and Express.js, implementing the Microservices Architecture. This project features a Common API Gateway for centralized request handling and an Identity Service for user authentication and authorization.
 
 
 
-🌐 Services Overview
-1. 🔀 Common API Gateway (api-gateway)
+2.🌐 Services Overview
+🔀 Common API Gateway (api-gateway)
     Acts as the single entry point for all microservices
     Proxies requests to the appropriate service
 
-    Implements:
+Implements:
    
         Rate limiting
         CORS
@@ -17,17 +17,17 @@ A backend system built using Node.js and Express.js, implementing the Microservi
         Token forwarding
         Request validation
 
-3. 🛂 Identity Service (identity-service)
+ 🛂 Identity Service (identity-service)
       Responsible for user management
 
-    Implements:
+Implements:
    
         User Registration
         User Login
         JWT-based Authentication
         Password Hashing
 
- 4 .📌 Folder Structure
+ 3.📌 Folder Structure
 
            Microservices-/
         ├── api-gateway/
@@ -44,7 +44,7 @@ A backend system built using Node.js and Express.js, implementing the Microservi
         └── README.md
 
 
-5.🛠 Technologies Used
+4.🛠 Technologies Used
 
   Node.js + Express.js
   MongoDB (with Mongoose)
@@ -54,7 +54,7 @@ A backend system built using Node.js and Express.js, implementing the Microservi
   Winston for logging
 
 
-6.🛣️ API Gateway Endpoints
+5.🛣️ API Gateway Endpoints
   Base URL:   
           
     http://localhost:3000/v1
@@ -66,7 +66,7 @@ A backend system built using Node.js and Express.js, implementing the Microservi
 📌 Note: These endpoints are proxied via the API Gateway to the Identity Service.
 
 
-7.⚙️ Setup Instructions
+6.⚙️ Setup Instructions
 
       git clone https://github.com/yourusername/Microservices-Backend.git
       cd Microservices-Backend
@@ -84,7 +84,7 @@ A backend system built using Node.js and Express.js, implementing the Microservi
           npm run dev
 
 
-8.🧪 Future Improvements
+7.🧪 Future Improvements
 
    Add user profile microservice
   
@@ -97,12 +97,12 @@ A backend system built using Node.js and Express.js, implementing the Microservi
 
 
 
-9.🧑‍💻 Contributing
+8.🧑‍💻 Contributing
 
     Feel free to fork this repo and open pull requests. For major changes, open an issue first to discuss your idea.
 
 
-10.📄 License
+9.📄 License
        
     This project is licensed under the MIT License.
 
