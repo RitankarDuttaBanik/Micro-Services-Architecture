@@ -41,11 +41,11 @@ A backend system built using Node.js and Express.js, implementing the Microservi
 🛣️ API Gateway Endpoints
   Base URL:   
           
-          http://localhost:3000/v1
+    http://localhost:3000/v1
   
   
-      POST	    /auth/registerUser	       Register new user
-      POST	    /auth/LoginUser	           Login existing user
+    POST	    /auth/registerUser	       Register new user
+    POST	    /auth/LoginUser	           Login existing user
 
 📌 Note: These endpoints are proxied via the API Gateway to the Identity Service.
 
@@ -71,8 +71,11 @@ A backend system built using Node.js and Express.js, implementing the Microservi
 🧪 Future Improvements
 
   Add user profile microservice
+  
   Integrate API gateway authentication middleware
+  
   Dockerize all services
+  
   CI/CD pipeline
 
 
