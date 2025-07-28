@@ -3,30 +3,6 @@
 A backend system built using Node.js and Express.js, implementing the Microservices Architecture. This project features a Common API Gateway for centralized request handling and an Identity Service for user authentication and authorization.
 
 
-📁 Project Structure
-
-Microservices-/
-│
-├── api-gateway/             # Common API Gateway
-│   ├── src/
-│   │   ├── routes/
-│   │   ├── middleware/
-│   │   └── server.js
-│   └── package.json
-│
-├── identity-service/        # Handles login, registration, JWT auth
-│   ├── src/
-│   │   ├── controllers/
-│   │   ├── routes/
-│   │   ├── models/
-│   │   └── server.js
-│   └── package.json
-│
-└── README.md
-
-
-
-
 🌐 Services Overview
 
 
