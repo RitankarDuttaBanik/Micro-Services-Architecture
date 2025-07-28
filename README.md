@@ -1,10 +1,12 @@
 1.🧠 Microservices ArchiTecture 
+-----------------------------------
 
 A backend system built using Node.js and Express.js, implementing the Microservices Architecture. This project features a Common API Gateway for centralized request handling and an Identity Service for user authentication and authorization.
 
 
 
 2.🌐 Services Overview
+----------------------------------------
 🔀 Common API Gateway (api-gateway)
     Acts as the single entry point for all microservices
     Proxies requests to the appropriate service
@@ -28,6 +30,7 @@ Implements:
         Password Hashing
 
  3.📌 Folder Structure
+ --------------------------------
 
            Microservices-/
         ├── api-gateway/
@@ -45,6 +48,7 @@ Implements:
 
 
 4.🛠 Technologies Used
+-----------------------------
 
   Node.js + Express.js
   MongoDB (with Mongoose)
@@ -55,6 +59,7 @@ Implements:
 
 
 5.🛣️ API Gateway Endpoints
+-----------------------------------
   Base URL:   
           
     http://localhost:3000/v1
@@ -67,6 +72,7 @@ Implements:
 
 
 6.⚙️ Setup Instructions
+------------------------------
 
       git clone https://github.com/yourusername/Microservices-Backend.git
       cd Microservices-Backend
@@ -85,6 +91,7 @@ Implements:
 
 
 7.🧪 Future Improvements
+---------------------------------
 
    Add user profile microservice
   
@@ -98,11 +105,13 @@ Implements:
 
 
 8.🧑‍💻 Contributing
+---------------------
 
     Feel free to fork this repo and open pull requests. For major changes, open an issue first to discuss your idea.
 
 
 9.📄 License
+-------------------------
        
     This project is licensed under the MIT License.
 
