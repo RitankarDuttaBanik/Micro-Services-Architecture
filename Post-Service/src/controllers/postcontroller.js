@@ -1,12 +1,24 @@
 const logger = require('../utils/logger.js');
 const Post = require('../models/Post.js');
+const { validatePostcreate} = require('../utils/validation.js');
 
 const createPost = async (req,res) => {
+    logger.info('create post endpoint ...');
     try {
+        const { error } =  validatePostcreate(req.body);
+        if (error) {
+            logger.warn('validation error ', error.details[0].message);
+            return res.status(400).json({
+                success: false,
+                message: error.details[0].message,
+            });
+
+        }
+
         const {content , mediaIDs } = req.body;
         const newcreatedPost = new Post({
             user : req.user.userId, // but user is a seperate service.
-            content ,
+            content,
             mediaIDs : mediaIDs || []
         })
 

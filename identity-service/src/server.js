@@ -14,7 +14,7 @@ import routes from './routes/identityservices.js';
 import errorHandler from './middlewares/errorHandler.js';
 
 const app = express();
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3001;
 
 // DB
 connect(process.env.MONGODB_URI)
