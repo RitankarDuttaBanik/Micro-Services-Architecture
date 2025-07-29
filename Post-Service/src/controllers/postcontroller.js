@@ -5,6 +5,9 @@ const { validatePostcreate } = require('../utils/validation.js');
 
 //can do on a different file -invalidcache - remove after use
 async function invalidateCache(req,input){
+        const cachedkeys = `post:${input}`;
+        await req.redisClient.del(cachedkeys);
+
         const keys = await req.redisClient.keys(`posts:*`);
         if(keys.length > 0){
             await req.redisClient.del(keys);
@@ -120,6 +123,17 @@ const getPostById = async (req, res) => {
 
 const deletePost = async (req, res) => {
     try {
+        const post = await Post.findByIdAndDelete({
+            _id:req.params.id,
+            user : req.user.userId,//user created it can only delete it.
+        })
+        if(!post){
+            return res.status(404).send({ message: 'Post not found', success: false });
+            }
+        
+        await invalidateCache(req,req.params.id);
+        
+        res.json({ message: 'Post deleted successfully', success: true });
 
     } catch (e) {
         logger.error('Error deleting post:', e);

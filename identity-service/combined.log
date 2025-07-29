@@ -260,3 +260,7 @@
 {"Service":"identity-service","level":"info","message":"Connected to database","timestamp":"2025-07-29T07:59:29.649Z"}
 {"0":"I","1":"n","10":"e","11":"q","12":"u","13":"e","14":"s","15":"t","2":"c","3":"o","4":"m","5":"i","6":"n","7":"g","8":" ","9":"r","Service":"identity-service","level":"info","message":{"body":{"email":"ratan1@gmail.com","password":"Ratan@1234"},"method":"POST","url":"/api/auth/LoginUser"},"timestamp":"2025-07-29T07:59:41.107Z"}
 {"Service":"identity-service","level":"info","message":"Login endpoint .....","timestamp":"2025-07-29T07:59:41.141Z"}
+{"Service":"identity-service","level":"info","message":"Server is running on port 3001","timestamp":"2025-07-29T11:15:25.075Z"}
+{"Service":"identity-service","level":"info","message":"Connected to database","timestamp":"2025-07-29T11:15:25.689Z"}
+{"0":"I","1":"n","10":"e","11":"q","12":"u","13":"e","14":"s","15":"t","2":"c","3":"o","4":"m","5":"i","6":"n","7":"g","8":" ","9":"r","Service":"identity-service","level":"info","message":{"body":{"email":"ratan1@gmail.com","password":"Ratan@1234"},"method":"POST","url":"/api/auth/LoginUser"},"timestamp":"2025-07-29T11:16:00.509Z"}
+{"Service":"identity-service","level":"info","message":"Login endpoint .....","timestamp":"2025-07-29T11:16:00.524Z"}

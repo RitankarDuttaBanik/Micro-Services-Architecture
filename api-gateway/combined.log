@@ -395,3 +395,49 @@
 {"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/Posts/688873953fe1a47d8d686d8a","timestamp":"2025-07-29T08:03:56.035Z"}
 {"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-29T08:03:56.036Z"}
 {"Service":"Common-API-GateWay","level":"info","message":"Response received from Post service: 200","timestamp":"2025-07-29T08:03:56.102Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-29T11:15:06.761Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-29T11:15:06.768Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Post service URL found : http://localhost:3002","timestamp":"2025-07-29T11:15:06.769Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-29T11:15:06.770Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received DELETE request to /v1/Posts/688873953fe1a47d8d686d8a","timestamp":"2025-07-29T11:15:47.357Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-29T11:15:47.359Z"}
+{"Service":"Common-API-GateWay","level":"warn","message":"Access attempt without valid token!","timestamp":"2025-07-29T11:15:47.362Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/LoginUser","timestamp":"2025-07-29T11:16:00.002Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-29T11:16:00.004Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 200","timestamp":"2025-07-29T11:16:00.926Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/Posts/createPost","timestamp":"2025-07-29T11:16:40.630Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-29T11:16:40.631Z"}
+{"Service":"Common-API-GateWay","level":"warn","message":"Invalid token!","timestamp":"2025-07-29T11:16:40.645Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/Posts/createPost","timestamp":"2025-07-29T11:16:52.459Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-29T11:16:52.460Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Post service: 400","timestamp":"2025-07-29T11:16:52.751Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/Posts/createPost","timestamp":"2025-07-29T11:17:07.090Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-29T11:17:07.091Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Post service: 400","timestamp":"2025-07-29T11:17:07.113Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/Posts/createPost","timestamp":"2025-07-29T11:17:24.577Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-29T11:17:24.578Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Post service: 201","timestamp":"2025-07-29T11:17:24.699Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/Posts/getallpost","timestamp":"2025-07-29T11:17:39.357Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-29T11:17:39.358Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Post service: 200","timestamp":"2025-07-29T11:17:39.527Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/Posts/6888adc4915a78042fb5f559","timestamp":"2025-07-29T11:17:57.460Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-29T11:17:57.461Z"}
+{"Service":"Common-API-GateWay","level":"warn","message":"Invalid token!","timestamp":"2025-07-29T11:17:57.465Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/Posts/6888adc4915a78042fb5f559","timestamp":"2025-07-29T11:18:04.676Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-29T11:18:04.677Z"}
+{"Service":"Common-API-GateWay","level":"warn","message":"Invalid token!","timestamp":"2025-07-29T11:18:04.678Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/Posts/6888adc4915a78042fb5f559","timestamp":"2025-07-29T11:18:29.402Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-29T11:18:29.403Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Post service: 200","timestamp":"2025-07-29T11:18:29.476Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received DELETE request to /v1/Posts/6888adc4915a78042fb5f559","timestamp":"2025-07-29T11:19:07.759Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-29T11:19:07.760Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Post service: 500","timestamp":"2025-07-29T11:19:07.776Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received DELETE request to /v1/Posts/6888adc4915a78042fb5f559","timestamp":"2025-07-29T11:21:54.986Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-29T11:21:54.988Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Post service: 200","timestamp":"2025-07-29T11:21:55.432Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/Posts/6888adc4915a78042fb5f559","timestamp":"2025-07-29T11:22:03.805Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-29T11:22:03.807Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Post service: 404","timestamp":"2025-07-29T11:22:03.873Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/Posts/6888adc4915a78042fb5f559","timestamp":"2025-07-29T11:22:08.399Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-29T11:22:08.400Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Post service: 404","timestamp":"2025-07-29T11:22:08.459Z"}
