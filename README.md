@@ -1,4 +1,4 @@
-1.🧠 Microservices ArchiTecture 
+1.🧠 Microservices Architecture 
 -----------------------------------
 
 A backend system built using Node.js and Express.js, implementing the Microservices Architecture. This project features a Common API Gateway for centralized request handling and an Identity Service for user authentication and authorization.
@@ -44,6 +44,13 @@ Implements:
         │       ├── routes/
         │       ├── models/
         │       └── server.js
+        ├── Post-Service/
+        |   └── src/
+        │       ├── controllers/
+        │       ├── routes/
+        │       ├── models/
+        │       └── server.js
+        |
         └── README.md
 
 
@@ -66,7 +73,7 @@ Implements:
   
   
     POST	    /auth/registerUser	       Register new user
-    POST	    /auth/LoginUser	           Login existing user
+    POST	    /auth/LoginUser	          Login existing user
 
 📌 Note: These endpoints are proxied via the API Gateway to the Identity Service.
 
@@ -88,6 +95,13 @@ Implements:
           cd ../identity-service
           npm install
           npm run dev
+
+  Start the Post Service
+  
+          cd ../Post-service
+          npm install
+          npm run dev
+
 
 
 7.🧪 Future Improvements
