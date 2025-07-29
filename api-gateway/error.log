@@ -12,3 +12,5 @@
 {"Service":"Common-API-GateWay","level":"error","message":"Proxy error: Invalid value \"undefined\" for header \"x-user-id\"","timestamp":"2025-07-28T05:59:28.751Z"}
 {"Service":"Common-API-GateWay","level":"error","message":"Proxy error: ","timestamp":"2025-07-28T07:03:27.170Z"}
 {"Service":"Common-API-GateWay","level":"error","message":"Proxy error: ","timestamp":"2025-07-28T07:11:21.138Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: ","timestamp":"2025-07-29T07:14:12.100Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: ","timestamp":"2025-07-29T08:01:51.275Z"}
