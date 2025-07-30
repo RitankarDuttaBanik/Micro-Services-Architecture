@@ -14,3 +14,10 @@
 {"Service":"Common-API-GateWay","level":"error","message":"Proxy error: ","timestamp":"2025-07-28T07:11:21.138Z"}
 {"Service":"Common-API-GateWay","level":"error","message":"Proxy error: ","timestamp":"2025-07-29T07:14:12.100Z"}
 {"Service":"Common-API-GateWay","level":"error","message":"Proxy error: ","timestamp":"2025-07-29T08:01:51.275Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: write ECONNRESET","timestamp":"2025-07-30T07:23:21.577Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: read ECONNRESET","timestamp":"2025-07-30T07:26:36.526Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: read ECONNRESET","timestamp":"2025-07-30T07:26:44.231Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: read ECONNRESET","timestamp":"2025-07-30T07:31:07.369Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: read ECONNRESET","timestamp":"2025-07-30T07:31:33.764Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: read ECONNRESET","timestamp":"2025-07-30T07:31:53.045Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: read ECONNRESET","timestamp":"2025-07-30T07:32:08.873Z"}

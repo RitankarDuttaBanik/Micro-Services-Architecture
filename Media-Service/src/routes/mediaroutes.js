@@ -1,10 +1,21 @@
 const express = require('express');
+const multer = require('multer');
 const logger = require('../utils/logger.js');
 const { uploadmedia } = require('../controllers/mediaControllers.js');
 const { authenticate } = require('../middleware/authmiddleware.js');
-const upload = require('../utils/multer.js');
+//const upload = require('../utils/multer.js');
 
 const router = express.Router();
+
+const upload = multer({
+    storage : multer.memoryStorage(),
+    limits  : {
+        fileSize : 50 * 1024 * 1024,
+
+    }
+}).single('file');
+
+
 
 router.post('/upload', authenticate, (req, res, next) => {
     upload(req, res, function (err) {

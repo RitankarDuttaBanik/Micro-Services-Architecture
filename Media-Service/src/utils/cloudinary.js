@@ -8,23 +8,19 @@ cloudinary.config({
 });
 
 const uploadcloudinary = (file) => {
-    new promise((reslove,reject) => {
-        const uploadstream = cloudinary.uploader.upload_stream({
-            resource_type: 'auto',
-        },
-        (error, result) => {
-            if(error){
-                logger.error('error while uploading file in cloudinary.',error);
-                reject(error);
+    return new Promise((resolve, reject) => {
+        const uploadstream = cloudinary.uploader.upload_stream(
+            { resource_type: 'auto' },
+            (error, result) => {
+                if (error) {
+                    logger.error('Error while uploading file in Cloudinary.', error);
+                    return reject(error);
+                }
+                resolve(result);
             }
-            else{
-                reslove(result);
-            }
-        }
-    )
-    uploadstream.end(file.buffer);
-    })
-}
+        );
+        uploadstream.end(file.buffer);
+    });
+};
 
-
-module.exports = {uploadcloudinary};
+module.exports = { uploadcloudinary };

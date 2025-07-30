@@ -1,50 +1,45 @@
 const logger = require('../utils/logger.js');
+const { uploadcloudinary } = require("../utils/cloudinary.js");
+const Media = require('../models/media.js'); 
 
-
-const uploadmedia = async (req,res) => {
+const uploadmedia = async (req, res) => {
     logger.info('Uploading file ...');
     try {
-        
-
-        if(!req.file){
-            logger.error('File not Found. please Uplaod file again');
-            res.status(400).json({
-                success : false,
-                message : 'File not Found. please Uplaod file again'
-            })
-
+        if (!req.file) {
+            logger.error('File not found. Please upload the file again.');
+            return res.status(400).json({
+                success: false,
+                message: 'File not found. Please upload the file again.'
+            });
         }
 
-        const {originalName,mimeType} = req.file;
+        const { originalname, mimetype } = req.file;
         const userId = req.user.userId;
 
-        logger.info(`File details : ${originalName}, type=${mimeType}`);
-        logger.info('uploading to cloudinary....');
+        logger.info(`File details: ${originalname}, type=${mimetype}`);
+        logger.info('Uploading to Cloudinary...');
         const cloudinaryuploadResult = await uploadcloudinary(req.file);
-        logger.info(`cloudinary upload successfull,${cloudinaryuploadResult.public_id}`);
+        logger.info(`Cloudinary upload successful: ${cloudinaryuploadResult.public_id}`);
 
         const newlycreatedMedia = new Media({
-            publicId : cloudinaryuploadResult.public_id,
-            originalName,
-            mimeType,
+            publicId: cloudinaryuploadResult.public_id,
+            originalName: originalname,
+            mimeType: mimetype,
             url: cloudinaryuploadResult.secure_url,
             userId,
-        })
+        });
 
         await newlycreatedMedia.save();
         res.status(200).json({
-            success : true,
-            mediaId :newlycreatedMedia._id,
-            url : newlycreatedMedia.url,
-            message : 'uploaded file successfully'
-        })
-
-         
+            success: true,
+            mediaId: newlycreatedMedia._id,
+            url: newlycreatedMedia.url,
+            message: 'Uploaded file successfully'
+        });
     } catch (e) {
-        logger.error('Error uploading file :', e);
-                res.status(500).send({ message: 'Error uploading file ', success: false });
-        
+        logger.error('Error uploading file:', e);
+        res.status(500).send({ message: 'Error uploading file', success: false });
     }
-}
+};
 
-module.exports = {uploadmedia};
+module.exports = { uploadmedia };

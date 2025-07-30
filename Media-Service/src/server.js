@@ -7,6 +7,8 @@ const errorHandler = require("./middleware/errrorHandler.js");
 const mediaroutes = require('./routes/mediaroutes.js');
 const logger = require('./utils/logger.js');
 const { uploadmedia } = require('./controllers/mediaControllers.js');
+const upload = require('./utils/multer.js');
+
 
 const app = express();
 const PORT = process.env.PORT || 3003;
@@ -28,7 +30,7 @@ app.use( (req, _res, next) => {
 
 // **** -Implement ip based rate limiter for sensitive endpoints. ****//
 
-app.use('/api/media',mediaroutes);
+app.use('/api/media',mediaroutes,uploadmedia);
 
 app.use(errorHandler);
 

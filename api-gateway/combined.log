@@ -441,3 +441,173 @@
 {"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/Posts/6888adc4915a78042fb5f559","timestamp":"2025-07-29T11:22:08.399Z"}
 {"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-29T11:22:08.400Z"}
 {"Service":"Common-API-GateWay","level":"info","message":"Response received from Post service: 404","timestamp":"2025-07-29T11:22:08.459Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-30T06:36:05.392Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-30T06:36:05.395Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Post service URL found : http://localhost:3002","timestamp":"2025-07-30T06:36:05.396Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Media service URL found : http://localhost:3003","timestamp":"2025-07-30T06:36:05.396Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-30T06:36:05.397Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-30T06:36:25.950Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-30T06:36:25.953Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Post service URL found : http://localhost:3002","timestamp":"2025-07-30T06:36:25.953Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Media service URL found : http://localhost:3003","timestamp":"2025-07-30T06:36:25.954Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-30T06:36:25.954Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-30T06:43:37.349Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-30T06:43:37.354Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Post service URL found : http://localhost:3002","timestamp":"2025-07-30T06:43:37.355Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Media service URL found : http://localhost:3003","timestamp":"2025-07-30T06:43:37.356Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-30T06:43:37.356Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T06:44:21.489Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T06:44:21.491Z"}
+{"Service":"Common-API-GateWay","level":"warn","message":"Access attempt without valid token!","timestamp":"2025-07-30T06:44:21.492Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/LoginUser","timestamp":"2025-07-30T06:44:55.687Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-30T06:44:55.689Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 200","timestamp":"2025-07-30T06:44:56.336Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T06:45:13.405Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T06:45:13.406Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 500","timestamp":"2025-07-30T06:45:13.432Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T06:52:54.032Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T06:52:54.034Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 500","timestamp":"2025-07-30T06:52:54.090Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T06:55:26.993Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T06:55:26.994Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 500","timestamp":"2025-07-30T06:55:27.337Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T06:57:20.008Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T06:57:20.008Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 400","timestamp":"2025-07-30T06:57:20.044Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T06:58:30.427Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T06:58:30.428Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 400","timestamp":"2025-07-30T06:58:30.777Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T07:00:36.953Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:00:36.954Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 400","timestamp":"2025-07-30T07:00:37.048Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T07:00:58.783Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:00:58.784Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 400","timestamp":"2025-07-30T07:00:58.849Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/media/upload","timestamp":"2025-07-30T07:21:05.816Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:21:05.884Z"}
+{"Service":"Common-API-GateWay","level":"warn","message":"Access attempt without valid token!","timestamp":"2025-07-30T07:21:05.893Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/auth/LoginUser","timestamp":"2025-07-30T07:21:51.130Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, [object Object]","timestamp":"2025-07-30T07:21:51.131Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Identity service: 200","timestamp":"2025-07-30T07:21:51.689Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/media/upload","timestamp":"2025-07-30T07:22:09.445Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:22:09.446Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 400","timestamp":"2025-07-30T07:22:12.313Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/media/upload","timestamp":"2025-07-30T07:22:42.736Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:22:42.736Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 400","timestamp":"2025-07-30T07:22:42.821Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/media/upload","timestamp":"2025-07-30T07:23:21.346Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:23:21.347Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: write ECONNRESET","timestamp":"2025-07-30T07:23:21.577Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-30T07:26:33.936Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-30T07:26:33.939Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Post service URL found : http://localhost:3002","timestamp":"2025-07-30T07:26:33.940Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Media service URL found : http://localhost:3003","timestamp":"2025-07-30T07:26:33.940Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-30T07:26:33.941Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/media/upload","timestamp":"2025-07-30T07:26:36.498Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:26:36.499Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: read ECONNRESET","timestamp":"2025-07-30T07:26:36.526Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/media/upload","timestamp":"2025-07-30T07:26:44.208Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:26:44.209Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: read ECONNRESET","timestamp":"2025-07-30T07:26:44.231Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/media/upload","timestamp":"2025-07-30T07:31:07.348Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:31:07.351Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: read ECONNRESET","timestamp":"2025-07-30T07:31:07.369Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/media/upload","timestamp":"2025-07-30T07:31:33.755Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:31:33.755Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: read ECONNRESET","timestamp":"2025-07-30T07:31:33.764Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/media/upload","timestamp":"2025-07-30T07:31:48.417Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:31:48.418Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 400","timestamp":"2025-07-30T07:31:48.427Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/media/upload","timestamp":"2025-07-30T07:31:53.036Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:31:53.037Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: read ECONNRESET","timestamp":"2025-07-30T07:31:53.045Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/media/upload","timestamp":"2025-07-30T07:32:01.725Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:32:01.725Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 400","timestamp":"2025-07-30T07:32:01.732Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/media/upload","timestamp":"2025-07-30T07:32:05.730Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:32:05.731Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 400","timestamp":"2025-07-30T07:32:05.746Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/media/upload","timestamp":"2025-07-30T07:32:08.864Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:32:08.865Z"}
+{"Service":"Common-API-GateWay","level":"error","message":"Proxy error: read ECONNRESET","timestamp":"2025-07-30T07:32:08.873Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T07:32:39.925Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:32:39.926Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 400","timestamp":"2025-07-30T07:32:40.181Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-30T07:36:42.739Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-30T07:36:42.742Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Post service URL found : http://localhost:3002","timestamp":"2025-07-30T07:36:42.743Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Media service URL found : http://localhost:3003","timestamp":"2025-07-30T07:36:42.743Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-30T07:36:42.744Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T07:36:49.502Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:36:49.504Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 400","timestamp":"2025-07-30T07:36:49.537Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T07:37:36.377Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:37:36.379Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 500","timestamp":"2025-07-30T07:37:36.398Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-30T07:39:33.467Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-30T07:39:33.471Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Post service URL found : http://localhost:3002","timestamp":"2025-07-30T07:39:33.471Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Media service URL found : http://localhost:3003","timestamp":"2025-07-30T07:39:33.472Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-30T07:39:33.472Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T07:39:40.014Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:39:40.015Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 404","timestamp":"2025-07-30T07:39:40.029Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-30T07:40:08.101Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-30T07:40:08.105Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Post service URL found : http://localhost:3002","timestamp":"2025-07-30T07:40:08.105Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Media service URL found : http://localhost:3003","timestamp":"2025-07-30T07:40:08.106Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-30T07:40:08.106Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T07:40:14.612Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:40:14.613Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 404","timestamp":"2025-07-30T07:40:15.320Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-30T07:40:24.929Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-30T07:40:24.932Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Post service URL found : http://localhost:3002","timestamp":"2025-07-30T07:40:24.933Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Media service URL found : http://localhost:3003","timestamp":"2025-07-30T07:40:24.933Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-30T07:40:24.934Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T07:40:35.212Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:40:35.213Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 404","timestamp":"2025-07-30T07:40:35.228Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-30T07:41:05.897Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-30T07:41:05.900Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Post service URL found : http://localhost:3002","timestamp":"2025-07-30T07:41:05.900Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Media service URL found : http://localhost:3003","timestamp":"2025-07-30T07:41:05.901Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-30T07:41:05.901Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T07:41:09.642Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:41:09.644Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from Media service: 500","timestamp":"2025-07-30T07:41:09.706Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-07-30T07:45:19.313Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-07-30T07:45:19.316Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Post service URL found : http://localhost:3002","timestamp":"2025-07-30T07:45:19.317Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Media service URL found : http://localhost:3003","timestamp":"2025-07-30T07:45:19.317Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-07-30T07:45:19.317Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T07:45:28.913Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:45:28.914Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from media service: 500","timestamp":"2025-07-30T07:45:28.958Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T07:50:47.738Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:50:47.740Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from media service: 500","timestamp":"2025-07-30T07:50:47.772Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T07:50:59.795Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:50:59.796Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from media service: 500","timestamp":"2025-07-30T07:50:59.824Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T07:51:21.159Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:51:21.161Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from media service: 500","timestamp":"2025-07-30T07:51:21.190Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T07:51:31.617Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:51:31.618Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from media service: 500","timestamp":"2025-07-30T07:51:31.641Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T07:53:08.973Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T07:53:08.974Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from media service: 500","timestamp":"2025-07-30T07:53:09.008Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T08:03:24.947Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T08:03:24.951Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from media service: 500","timestamp":"2025-07-30T08:03:29.298Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T08:04:45.758Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T08:04:45.758Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from media service: 500","timestamp":"2025-07-30T08:04:51.715Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T08:07:04.164Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T08:07:04.166Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from media service: 500","timestamp":"2025-07-30T08:07:07.502Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Received POST request to /v1/media/upload","timestamp":"2025-07-30T08:09:07.169Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-30T08:09:07.204Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Response received from media service: 200","timestamp":"2025-07-30T08:09:09.662Z"}
