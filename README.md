@@ -1,4 +1,4 @@
-1.🧠 Microservices Architecture 
+1.🧠 Microservice Architecture 
 -----------------------------------
 
 A backend system built using Node.js and Express.js, implementing the Microservices Architecture. This project features a Common API Gateway for centralized request handling and an Identity Service for user authentication and authorization.
