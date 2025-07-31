@@ -156,3 +156,9 @@
 {"Service":"Post-Service","level":"info","message":"Request body , [object Object]","timestamp":"2025-07-29T11:22:03.821Z"}
 {"Service":"Post-Service","level":"info","message":"Received GET request to /api/Posts/6888adc4915a78042fb5f559","timestamp":"2025-07-29T11:22:08.409Z"}
 {"Service":"Post-Service","level":"info","message":"Request body , [object Object]","timestamp":"2025-07-29T11:22:08.411Z"}
+{"Service":"Post-Service","level":"info","message":" Post Server  is running on port 3002","timestamp":"2025-07-31T12:09:53.785Z"}
+{"Service":"Post-Service","level":"info","message":"connected to DataBase.","timestamp":"2025-07-31T12:09:54.408Z"}
+{"Service":"Post-Service","level":"info","message":" Post Server  is running on port 3002","timestamp":"2025-07-31T15:39:41.510Z"}
+{"Service":"Post-Service","level":"info","message":"connected to DataBase.","timestamp":"2025-07-31T15:39:42.161Z"}
+{"Service":"Post-Service","level":"info","message":" Post Server  is running on port 3002","timestamp":"2025-07-31T15:40:07.353Z"}
+{"Service":"Post-Service","level":"info","message":"connected to DataBase.","timestamp":"2025-07-31T15:40:07.924Z"}

@@ -44,9 +44,20 @@ app.use("/api/posts", (req,res,next) => {
 
 app.use(errorHandler);
 
-app.listen(PORT, () => {
+
+async function StartServer(){
+  try{
+      app.listen(PORT, () => {
   logger.info(` Post Server  is running on port ${PORT}`);
 });
+}catch(e){
+    logger.error('Error connecting port for post server.',e);
+    process.exit(1);
+  }
+  
+}
+
+StartServer();
 
 // Unhandled rejections
 process.on("unhandledRejection", (reason, promise) => {

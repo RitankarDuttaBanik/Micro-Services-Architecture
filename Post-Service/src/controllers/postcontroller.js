@@ -1,6 +1,7 @@
 const logger = require('../utils/logger.js');
 const Post = require('../models/Post.js');
 const { validatePostcreate } = require('../utils/validation.js');
+const { PublishEvent } = require('../utils/rabbitMQ.js');
 
 
 //can do on a different file -invalidcache - remove after use
@@ -130,6 +131,12 @@ const deletePost = async (req, res) => {
         if(!post){
             return res.status(404).send({ message: 'Post not found', success: false });
             }
+
+        await PublishEvent('post.deleted',{
+            postId : post._id.toString(),
+            userId : req.user.userId,
+            mediaIds : post.mediaIDs, 
+        })
         
         await invalidateCache(req,req.params.id);
         
