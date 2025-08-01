@@ -124,6 +124,33 @@ app.use(
   })
 );
 
+// creating proxy for Search service
+
+app.use(
+  "/v1/search",
+  validateToken,
+  proxy(process.env.IDENTITY_SEARCH_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+      proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+      if (!srcReq.headers["content-type"].startsWith("multipart/form-data")) {
+        proxyReqOpts.headers["Content-Type"] = "application/json";
+      }
+
+      return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(
+        `Response received from search service: ${proxyRes.statusCode}`
+      );
+
+      return proxyResData;
+    },
+    parseReqBody: false,
+  })
+);
+
+
 console.log('errorHandler is a', typeof errorHandler, errorHandler); //correrctly passing 
 app.use(errorHandler); 
 
@@ -132,5 +159,6 @@ app.listen(PORT ,() => {
     logger.info(`Identity service URL found : ${process.env.IDENTITY_SERVICE_URL}`);
     logger.info(`Post service URL found : ${process.env.IDENTITY_POST_URL}`);
     logger.info(`Media service URL found : ${process.env.IDENTITY_MEDIA_URL}`);
+    logger.info(`Search service URL found : ${process.env.IDENTITY_SEARCH_URL}`);
     logger.info(`Redis Url ${process.env.REDIS_URL}`);
 });

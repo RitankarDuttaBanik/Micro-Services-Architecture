@@ -628,3 +628,9 @@
 {"Service":"Common-API-GateWay","level":"info","message":"Received GET request to /v1/media/getallmedia","timestamp":"2025-07-31T12:41:22.692Z"}
 {"Service":"Common-API-GateWay","level":"info","message":"Request body, undefined","timestamp":"2025-07-31T12:41:22.694Z"}
 {"Service":"Common-API-GateWay","level":"warn","message":"Invalid token!","timestamp":"2025-07-31T12:41:22.695Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"API Gateway is running on port 3000","timestamp":"2025-08-01T05:45:07.941Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Identity service URL found : http://localhost:3001","timestamp":"2025-08-01T05:45:07.948Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Post service URL found : http://localhost:3002","timestamp":"2025-08-01T05:45:07.949Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Media service URL found : http://localhost:3003","timestamp":"2025-08-01T05:45:07.950Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Search service URL found : http://localhost:3005","timestamp":"2025-08-01T05:45:07.950Z"}
+{"Service":"Common-API-GateWay","level":"info","message":"Redis Url redis://localhost:6379","timestamp":"2025-08-01T05:45:07.951Z"}

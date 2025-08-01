@@ -1,0 +1,20 @@
+# Use a lightweight Node.js image
+FROM node:18-alpine
+
+# Set working directory (corrected path)
+WORKDIR /usr/src/app
+
+# Copy only package files to install deps first
+COPY package*.json ./
+
+# Install dependencies in production mode
+RUN npm ci --only=production
+
+# Copy the rest of the app files
+COPY . .
+
+# Expose the port the app runs on
+EXPOSE 3005
+
+# Start the app
+CMD [ "node", "src/server.js" ]

@@ -1,6 +1,19 @@
 version: '3.8'
 
 services:
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "3000:3000"
+    env_file: ./api-gateway/.env
+    depends_on:
+      - redis
+      - rabbitmq
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - RABBITMQ_URL=amqp://amqp:5672
+
+
   identity-service:
     build: ./identity-service
     ports:
@@ -8,13 +21,62 @@ services:
     env_file: ./identity-service/.env
     depends_on:
       - redis
+      - rabbitmq
     environment:
       - REDIS_URL=redis://redis:6379
+      - RABBITMQ_URL=amqp://amqp:5672
 
+  Media-service:
+    build: ./Media-Service
+    ports:
+      - "3001:3001"
+    env_file: ./Media-Service/.env
+    depends_on:
+      - redis
+      - rabbitmq
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - RABBITMQ_URL=amqp://amqp:5672
+  
+  Post-service:
+    build: ./Post-Service
+    ports:
+      - "3002:3002"
+    env_file: ./Post-Service/.env
+    depends_on:
+      - redis
+      - rabbitmq
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - RABBITMQ_URL=amqp://amqp:5672
+
+  Search-service:
+    build: ./Post-Service
+    ports:
+      - "3005:3005"
+    env_file: ./Search-Service/.env
+    depends_on:
+      - redis
+      - rabbitmq
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - RABBITMQ_URL=amqp://amqp:5672
+    
+  rabbitmq:
+    image: rabbitmq:alpine
+    ports:
+      -"15672:15672"
   redis:
     image: redis:alpine
     ports:
       - "6379:6379"
+
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      
 
 
 
